@@ -1,12 +1,12 @@
-const nombre= require('readline').createInterfaces({
+const nombre = require('readline').createInterface({
     input: process.stdin,
-    ouput: process.stdout,
+    output:process.stdout,
+
 });
 
-nombre.question("Cual es su nombre?",name =>{
-console.log();
+nombre.question("Cual es su nombre?",nombre => {
+    console.log(`Bienvenido ${nombre}`);
+  
 });
-
-
 
 
